@@ -1,6 +1,6 @@
 # Estudos de POO (Java) ☕
 
-Este repositório é focado nos conceitos de Programação Orientada a Objetos que estou aprendendo nas aulas de ADS e nos cursos online.
+Este repositório é focado nos conceitos de Programação Orientada a Objetos que estou aprendendo nas aulas de ADS e em cursos online.
 
 ## 📂 O que já tem aqui:
 
