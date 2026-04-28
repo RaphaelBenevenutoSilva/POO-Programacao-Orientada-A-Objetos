@@ -1,33 +1,28 @@
-# Programação Orientada a Objetos com Java ☕
+# ☕ 01. Programação Orientada a Objetos (POO)
 
-Este repositório contém meus estudos e exercícios práticos de **POO**, seguindo a metodologia do Prof. Gustavo Guanabara (Curso em Vídeo). O foco aqui é aprender a pensar em objetos, organizar código de forma eficiente e utilizar os pilares da orientação a objetos.
+Este repositório é dedicado ao estudo dos pilares da POO em Java. Aqui aplico conceitos de abstração, encapsulamento e visibilidade seguindo a metodologia do curso de Java POO (Guanabara).
 
-## 🚀 O que estou aprendendo:
+## 📝 Projetos e Exercícios:
 
-### 01. Criando Classes e Objetos
-* **Objetos Concretos e Abstratos:** Exercícios iniciais para entender como transformar coisas do mundo real (como um Mouse ou uma rotina de Estudo) em código.
-* **Classes e Instanciação:** Como definir atributos e métodos para criar múltiplos objetos a partir de uma mesma planta (classe).
+### 🏦 Sistema de Conta Banco (Destaque do Módulo)
+* **Descrição:** Simulação de um sistema bancário real com abertura de conta (Corrente e Poupança), depósitos, saques e cobrança de mensalidade.
+* **Destaque Técnico:** * **Encapsulamento Total:** Todos os atributos são `private` ou `protected`, sendo acessados apenas via métodos `public`.
+    * **Lógica de Estado:** Validação rigorosa para garantir que não se pode sacar de conta sem saldo ou fechar conta com dinheiro/débito.
 
-### 02. Visibilidade e Encapsulamento
-* Uso dos modificadores `public`, `private` e `protected`.
-* Implementação de métodos **Getters, Setters e Construtores** para garantir a segurança e integridade dos dados.
+### 🖊️ Evolução da Classe Caneta
+* **Aula 02 e 03:** Estudo de **Visibilidade** (`public`, `private`, `protected`) e como o estado do objeto influencia seu comportamento (ex: não rabiscar se estiver tampada).
+* **Aula 04:** Implementação de **Métodos Especiais** (Getters, Setters e Construtores) para criar objetos já configurados de forma segura.
 
-### 03. Exemplo Prático: Sistema de Conta Banco
-Um projeto mais completo que simula o funcionamento de uma conta bancária, aplicando:
-* Lógica de abertura e fechamento de conta.
-* Operações de depósito, saque e pagamento de mensalidade.
-* Controle de status da conta e validação de saldo.
+### 🖱️ Abstração de Objetos Reais
+* **Objeto Concreto (Mouse):** Atributos como DPI e Cor, com métodos de interação.
+* **Objeto Abstrato (Estudo):** Transformando a rotina de estudos em código, controlando tempo e assunto.
 
-## 🛠️ Tecnologias Utilizadas
-* **Java SDK**
+## 🛠️ Tecnologias e Ferramentas
+* **Java SDK** (Versão 8 ou superior)
 * **NetBeans IDE**
-* **Lógica de Programação Orientada a Objetos**
+* **Lógica de Orientação a Objetos**
 
-## 📂 Estrutura de Pastas
-* `1_ObjetoConcretoAbstrato`: Primeiros passos com classes simples.
-* `Aula02` e `Aula03`: Evolução do conceito de Caneta e visibilidade.
-* `Aula04`: Implementação de métodos especiais (Getters/Setters/Construtor).
-* `ContaBanco`: Desafio prático final do módulo.
-
----
-*Estudando Java para me tornar um desenvolvedor Backend. Avante!* 🚀
+## 🚀 Como executar o projeto de Banco
+1. Localize a classe `ContaBanco.java` dentro do pacote `projetos.contabanco`.
+2. Execute o arquivo (`Shift + F6` no NetBeans).
+3. O terminal exibirá o status detalhado das contas criadas para o **Raphael** e a **Cleuza**.
