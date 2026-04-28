@@ -32,8 +32,9 @@ Este diretório reúne meus estudos práticos sobre os pilares da Programação 
     * **Descrição:** Modelagem de uma rotina de aprendizado para monitorar assuntos e tempo dedicado.
     * **Destaque Técnico:** Aplicação de **Abstração**, mostrando que POO serve tanto para objetos físicos quanto para conceitos.
 
-## 🛠️ Tecnologias e Conceitos
-* **Linguagem:** Java
-* **IDE:** NetBeans
-* **Pilares:** Abstração e Encapsulamento
-* **Metodologia:** Curso em Vídeo (Prof. Gustavo Guanabara)
+## 🛠️ Tecnologias e Conceitos Explorados
+
+* **Java SDK**
+* **NetBeans IDE / Maven**
+* **Curso em Vídeo (Gustavo Guanabara)**
+* **Pilares de POO:** Abstração, Encapsulamento e Visibilidade.
