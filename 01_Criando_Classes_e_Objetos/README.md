@@ -11,23 +11,26 @@ Este diretório reúne meus estudos práticos sobre os pilares da Programação 
 
 ### 🖊️ Métodos Especiais e Construtores
 * `Aula04`
-    * **Descrição:** Evolução da classe Caneta, agora utilizando um Método Construtor para definir o estado inicial do objeto.
-    * **Destaque Técnico:** Uso de **Getters e Setters** para manipulação segura de atributos protegidos, garantindo que o objeto seja instanciado com dados válidos desde o início.
+    * **Descrição:** Evolução da classe Caneta, utilizando um Método Construtor para definir o estado inicial do objeto.
+    * **Destaque Técnico:** Uso de **Getters e Setters** para manipulação segura de atributos, garantindo que o objeto seja instanciado com dados válidos.
 
 ### 🛡️ Visibilidade e Modificadores
+* `Aula03`
+    * **Descrição:** Aprofundamento nos modificadores de acesso para entender a diferença entre o que é público e o que deve ser protegido.
+    * **Destaque Técnico:** Configuração de atributos como `protected` e `private`, testando os limites de acesso entre diferentes classes.
+
 * `Aula02`
-    * **Descrição:** Exploração dos modificadores de acesso (`public`, `private` e `protected`) para entender como proteger os membros de uma classe.
+    * **Descrição:** Exploração inicial dos modificadores de acesso (`public`, `private` e `protected`).
     * **Destaque Técnico:** Demonstração de como a visibilidade impacta o que o mundo externo pode ver e alterar em um objeto.
 
-### 🖱️ Abstração de Objetos Concretos
+### 🖱️ Abstração de Objetos Concretos e Abstratos
 * `Mouse`
     * **Descrição:** Transformação de um componente periférico em código, controlando atributos como DPI e cor.
-    * **Destaque Técnico:** Lógica comportamental simples onde o método `clicar()` depende do valor atribuído ao atributo `dpi`.
+    * **Destaque Técnico:** Lógica comportamental onde o método `clicar()` depende do valor atribuído ao atributo `dpi`.
 
-### 📚 Abstração de Conceitos Abstratos
 * `Estudo`
     * **Descrição:** Modelagem de uma rotina de aprendizado para monitorar assuntos e tempo dedicado.
-    * **Destaque Técnico:** Aplicação de **Abstração**, mostrando que POO serve tanto para coisas físicas quanto para conceitos e tarefas.
+    * **Destaque Técnico:** Aplicação de **Abstração**, mostrando que POO serve tanto para objetos físicos quanto para conceitos.
 
 ## 🛠️ Tecnologias e Conceitos
 * **Linguagem:** Java
