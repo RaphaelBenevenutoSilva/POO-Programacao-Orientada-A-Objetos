@@ -1,28 +1,29 @@
 # ☕ 01. Programação Orientada a Objetos (POO)
 
-Este repositório é dedicado ao estudo dos pilares da POO em Java. Aqui aplico conceitos de abstração, encapsulamento e visibilidade seguindo a metodologia do curso de Java POO (Guanabara).
+Este diretório marca o início da jornada pela Programação Orientada a Objetos em Java. Aqui, deixamos de lado a programação puramente sequencial para explorar conceitos de abstração, visibilidade e o uso de métodos especiais para proteger e organizar os dados.
 
-## 📝 Projetos e Exercícios:
+## 📝 Projetos Neste Módulo:
 
-### 🏦 Sistema de Conta Banco (Destaque do Módulo)
-* **Descrição:** Simulação de um sistema bancário real com abertura de conta (Corrente e Poupança), depósitos, saques e cobrança de mensalidade.
-* **Destaque Técnico:** * **Encapsulamento Total:** Todos os atributos são `private` ou `protected`, sendo acessados apenas via métodos `public`.
-    * **Lógica de Estado:** Validação rigorosa para garantir que não se pode sacar de conta sem saldo ou fechar conta com dinheiro/débito.
+### 🏦 Gestão Bancária e Regras de Negócio
 
-### 🖊️ Evolução da Classe Caneta
-* **Aula 02 e 03:** Estudo de **Visibilidade** (`public`, `private`, `protected`) e como o estado do objeto influencia seu comportamento (ex: não rabiscar se estiver tampada).
-* **Aula 04:** Implementação de **Métodos Especiais** (Getters, Setters e Construtores) para criar objetos já configurados de forma segura.
+* **Sistema ContaBanco**
+    * **Descrição:** Simulação de um sistema bancário que gerencia a abertura de contas (Corrente e Poupança), depósitos, saques e cobrança automática de mensalidade.
+    * **Destaque Técnico:** Implementação rigorosa de **Encapsulamento**. Todos os atributos (`saldo`, `status`, `dono`) são privados ou protegidos, garantindo que o saldo só mude através de métodos validados como `depositar()` e `sacar()`.
 
-### 🖱️ Abstração de Objetos Reais
-* **Objeto Concreto (Mouse):** Atributos como DPI e Cor, com métodos de interação.
-* **Objeto Abstrato (Estudo):** Transformando a rotina de estudos em código, controlando tempo e assunto.
+### 🖊️ Abstração e Modelagem de Objetos
 
-## 🛠️ Tecnologias e Ferramentas
-* **Java SDK** (Versão 8 ou superior)
-* **NetBeans IDE**
-* **Lógica de Orientação a Objetos**
+* **Caneta (Evolução)**
+    * **Descrição:** Modelagem de uma caneta para entender estados (tampada/destampada) e comportamentos (rabiscar).
+    * **Destaque Técnico:** Uso de **Métodos Especiais** (`Getters`, `Setters` e `Construtor`). O objeto já nasce com características definidas e o acesso aos dados é feito de forma segura, evitando erros de manipulação direta de atributos.
 
-## 🚀 Como executar o projeto de Banco
-1. Localize a classe `ContaBanco.java` dentro do pacote `projetos.contabanco`.
-2. Execute o arquivo (`Shift + F6` no NetBeans).
-3. O terminal exibirá o status detalhado das contas criadas para o **Raphael** e a **Cleuza**.
+### 🖱️ Mapeamento de Objetos Reais
+
+* **Mouse e Rotina de Estudo**
+    * **Descrição:** Exercícios de abstração para transformar objetos concretos e conceitos abstratos do dia a dia em classes Java funcionais.
+    * **Destaque Técnico:** Demonstração prática da relação entre **Classe** (o molde) e **Objeto** (a instância real com dados específicos).
+
+## 🛠️ Conceitos Aplicados
+
+* **Visibilidade:** Uso estratégico de `public`, `private` e `protected`.
+* **Estado e Comportamento:** Como os métodos alteram os atributos do objeto durante a execução.
+* **Validação de Lógica:** Verificações para impedir ações impossíveis (ex: fechar conta com saldo positivo).
