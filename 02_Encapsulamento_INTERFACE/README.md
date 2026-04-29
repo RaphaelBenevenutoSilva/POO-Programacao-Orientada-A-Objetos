@@ -1,4 +1,4 @@
-# ☕ 01. Encapsulamento Orientada a Objetos (POO)
+# ☕ 01. Encapsulamento e Interface (POO)
 
 Este diretório reúne meus estudos práticos sobre os pilares da Programação Orientada a Objetos em Java. O foco aqui foi transitar do pensamento procedural para a modelagem de classes, aplicando conceitos de visibilidade, métodos especiais e encapsulamento avançado.
 
