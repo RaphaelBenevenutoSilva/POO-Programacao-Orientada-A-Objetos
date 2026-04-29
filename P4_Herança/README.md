@@ -14,6 +14,7 @@ Este projeto demonstra a implementação de **Herança** em Java, permitindo que
 - `Funcionario.java`: Especialização para controle de setor e status de trabalho.
 
 <br>
+
 ---
 <br>
 
