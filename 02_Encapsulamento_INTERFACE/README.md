@@ -1,36 +1,31 @@
-# ☕ 02. Encapsulamento e Interface (POO)
+# 📺 Projeto Controle Remoto - POO Java
 
-Este diretório reúne meus estudos práticos sobre os pilares da Programação Orientada a Objetos em Java. O foco aqui foi transitar do pensamento procedural para a modelagem de classes, aplicando conceitos de visibilidade, métodos especiais e encapsulamento avançado.
+Repositório dedicado ao estudo de **Encapsulamento** e **Interfaces** em Java, seguindo os conceitos de Programação Orientada a Objetos (POO).
 
-## 📝 Projetos Neste Módulo:
+## 📌 Sobre o Projeto
+Este projeto simula o funcionamento lógico de um controle remoto universal. O objetivo principal é demonstrar como uma `interface` define um contrato de comportamento que uma `classe` deve seguir, mantendo os atributos protegidos através do encapsulamento (Getters e Setters privados).
 
-### 🎮 Interface e Encapsulamento Avançado
-* `Aula06` (Controle Remoto)
-    * **Descrição:** Implementação de um controle remoto funcional utilizando uma Interface (`Controlador`) para definir o comportamento padrão.
-    * **Destaque Técnico:** Uso de **Encapsulamento** rigoroso, onde todos os atributos são `private` e os métodos de controle são os únicos que interagem com o sistema. Inclui lógica visual de barra de volume no console usando laços de repetição.
+## 🛠️ Tecnologias e Conceitos
+- **Linguagem:** Java
+- **Conceitos de POO:**
+  - **Encapsulamento:** Atributos e métodos internos protegidos.
+  - **Interfaces:** Uso da interface `Controlador` para métodos abstratos.
+  - **Polimorfismo:** Implementação da interface (`@Override`).
 
-### 🏦 Gestão de Regras de Negócio
-* `ContaBanco`
-    * **Descrição:** Simulação de um sistema bancário completo com lógica para abertura de conta (CC/CP), depósitos, saques e taxas de manutenção.
-    * **Destaque Técnico:** Validação de estado do objeto, garantindo que operações financeiras só ocorram se a conta estiver ativa e com saldo compatível.
+## 🚀 Funcionalidades
+| Método | Regra de Negócio |
+| :--- | :--- |
+| `ligar() / desligar()` | Controla o estado de energia. |
+| `maisVolume() / menosVolume()` | Ajusta o volume (apenas se a TV estiver ligada). |
+| `abrirmenu()` | Exibe status e barra de volume visual no console. |
+| `play() / pause()` | Controla a reprodução (apenas se ligado). |
 
-### 🖊️ Métodos Especiais e Construtores
-* `Aula04`
-    * **Descrição:** Evolução da classe Caneta, utilizando um Método Construtor para definir o estado inicial do objeto.
-    * **Destaque Técnico:** Uso de **Getters e Setters** para manipulação segura de atributos protegidos.
-
-### 🛡️ Visibilidade e Modificadores
-* `Aula03` e `Aula02`
-    * **Descrição:** Exploração dos modificadores de acesso (`public`, `private` e `protected`) para entender a segurança e o acesso entre classes e pacotes.
-    * **Destaque Técnico:** Demonstração prática de como a visibilidade protege os dados internos de interferências externas indevidas.
-
-### 🖱️ Abstração de Objetos Reais
-* `Mouse` e `Estudo`
-    * **Descrição:** Exercícios de abstração para transformar tanto objetos físicos quanto conceitos rotineiros em classes Java funcionais.
-    * **Destaque Técnico:** Prática da relação fundamental entre **Classe** (molde) e **Objeto** (instância).
-
-## 🛠️ Tecnologias e Conceitos Explorados
-
+## 📂 Estrutura de Arquivos
+```text
+src/projetos/aula06/
+├── Controlador.java    # Interface com as assinaturas
+├── ControleRemoto.java # Implementação da lógica
+└── Aula06.java         # Testes do sistema (Main)
 * **Java SDK**
 * **NetBeans IDE / Maven**
 * **Curso em Vídeo (Gustavo Guanabara)**
