@@ -17,6 +17,10 @@ Este projeto explora o conceito de **Polimorfismo de Sobreposição**, onde clas
 - `Mamifero.java`, `Peixe.java`, `Ave.java`, `Reptil.java` (Especializações)
 - `Cachorro.java` e `Canguru.java` (Subclasses de Mamífero)
 
+<br>
+
+---
+<br>
 
 # 🐕 Polimorfismo de Sobrecarga (Overload)
 
