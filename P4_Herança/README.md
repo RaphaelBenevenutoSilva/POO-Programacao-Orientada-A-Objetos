@@ -13,7 +13,7 @@ Este projeto demonstra a implementação de **Herança** em Java, permitindo que
 - `Professor.java`: Especialização com foco em salário e especialidade.
 - `Funcionario.java`: Especialização para controle de setor e status de trabalho.
 
-- # 🎓 Evolução em Herança - Classes Abstratas e Finais
+# 🎓 Evolução em Herança - Classes Abstratas e Finais
 
 Este projeto explora níveis mais profundos de herança, utilizando conceitos de controle de árvore genealógica de classes e formatação de dados.
 
